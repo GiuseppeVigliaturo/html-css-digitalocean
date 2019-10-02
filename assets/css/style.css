@@ -9,6 +9,23 @@ header{
   background-size: cover;
 }
 
+.tabella{
+background: #031b4e url("../img/data-center-map.svg"); 
+}
+
+.text-color-white{
+  color:white;
+}
+
+.text-color-grey{
+  color:grey;
+}
+
+.text-color-acqua{
+  color:rgb(8, 124, 110);
+}
+
+
 footer{
   background: #010E28;
   color: grey;
