@@ -9,8 +9,15 @@ header{
   background-size: cover;
 }
 
+.navbar{
+  background-color: white;
+}
+
+.carousel{
+  background: #F3F5F9;
+}
 .tabella{
-background: #031b4e url("../img/data-center-map.svg"); 
+background: #031b4e url("../img/data-center-map.svg");
 }
 
 .text-color-white{
