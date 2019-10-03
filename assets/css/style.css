@@ -1,6 +1,5 @@
 .menu{
   line-height: 4;
-
 }
 
 .hamburger{
@@ -40,10 +39,8 @@ form input {
   margin-right: auto;
 }
 
-.dati a{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+.dati a.sign{
+  margin-left: 20%;
 }
 
 .presentazione{
@@ -97,8 +94,93 @@ background: #031b4e url("../img/data-center-map.svg");
   padding-top: 3%;
 }
 
+.footdown li{
+  display: inline-block;
+  list-style-type: none;
+  width: calc((100% / 5));
+}
+
+
 
 footer{
   background: #010E28;
   color: grey;
+}
+
+
+@media screen and (min-width:992) {
+
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+.menu{
+  display:none
+}
+
+.hamburger{
+  display: block;
+}
+
+#customer li{
+  display: inline-block;
+  list-style-type: none;
+  width: calc((100% / 3) - 4px);
+}
+
+#customer li img{
+  width: 90%;
+}
+
+}
+
+@media screen and (min-width: 471px) and (max-width:991px) {
+
+  .menu{
+    display:none
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  #customer li{
+    display: inline-block;
+    list-style-type: none;
+    width: calc((100% / 3) - 4px);
+  }
+
+  #customer li img{
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width:470px) {
+  .menu{
+    display:none
+  }
+
+  .hamburger{
+    display: block;
+  }
+  #customer li{
+    display: inline-block;
+    list-style-type: none;
+    width: calc((100% / 2) - 4px);
+  }
+
+  #customer li img{
+    width: 90%;
+  }
+
+
+.navbar-brand img{
+  width: 100%;
+  height: auto;
+}
+
 }
