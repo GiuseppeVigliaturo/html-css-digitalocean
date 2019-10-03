@@ -1,10 +1,15 @@
 .menu{
   line-height: 4;
-  display: none;
 
 }
-header{
-  background-image: url("../img/bg-home.jpg");;
+
+.hamburger{
+  line-height: 3;
+  display: none;
+}
+
+#intro{
+  background-image: url("../img/bg-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -13,11 +18,32 @@ header{
   background-color: white;
 }
 
+form input {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.dati{
+  margin-top: 8%;
+  margin-bottom: 8%;
+  background: white;
+  padding: 60px 15px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+#customer{
+  background: #F3F5F9;
+}
+
 .carousel{
   background: #F3F5F9;
 }
-.tabella{
-background: #031b4e url("../img/data-center-map.svg");
+
+#tabella{
+background-image: url("../img/data-center-map.svg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
 
 .text-color-white{
@@ -30,6 +56,13 @@ background: #031b4e url("../img/data-center-map.svg");
 
 .text-color-acqua{
   color:rgb(8, 124, 110);
+}
+
+#account{
+
+  background-image: url("../img/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
