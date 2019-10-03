@@ -21,6 +21,8 @@
 form input {
   display: block;
   margin-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dati{
@@ -32,8 +34,38 @@ form input {
   border-radius: 4px;
 }
 
+.dati button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dati a{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presentazione{
+  margin: 30% auto;
+}
+
+.process li{
+  line-height: 3;
+  border-left: 1px solid grey;
+}
 #customer{
   background: #F3F5F9;
+}
+
+#customer li{
+  display: inline-block;
+  list-style-type: none;
+  width: calc((100% / 6) - 4px);
+}
+
+#customer li img{
+  width: 80%;
 }
 
 .carousel{
@@ -41,9 +73,8 @@ form input {
 }
 
 #tabella{
-background-image: url("../img/data-center-map.svg");
-background-repeat: no-repeat;
-background-size: 100%;
+color: white;
+background: #031b4e url("../img/data-center-map.svg");
 }
 
 .text-color-white{
@@ -59,10 +90,11 @@ background-size: 100%;
 }
 
 #account{
-
   background-image: url("../img/bg-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5%;
+  padding-top: 3%;
 }
 
 
