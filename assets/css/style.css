@@ -107,8 +107,17 @@ footer{
   color: grey;
 }
 
+ul li.ico{
+  display: inline-block;
+  list-style-type: none;
+  width: calc(100% / 8);
+}
 
-@media screen and (min-width:992) {
+
+
+
+
+@media screen and (min-width:992px) {
 
 
 
