@@ -11,13 +11,47 @@
   line-height: 6;
 }
 
+#hidden img {
+    width: 40%;
+}
+
+.logo{
+
+  width: 50%;
+  height: auto;
+}
+
 .hamburger{
   line-height: 3;
   display: none;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:100%;
+  left:0;
+  background-color: white;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 #intro{
-  margin-top: 100px;
+  margin-top: 3%;
   background-image: url("../img/bg-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;

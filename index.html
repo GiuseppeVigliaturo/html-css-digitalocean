@@ -14,48 +14,105 @@
 
 
       <header>
-        <nav class="navbar">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-4  col-sm-3">
+        <nav id="hidden" class="hidden-md hidden-lg navbar">
 
-                <a class="navbar-brand" href="#">
-                  <img class="img-responsive brand" alt="Brand" src="assets/img/digitalocean_logo.png">
-                </a>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-6">
+              <img class="logo" src="assets/img/digitalocean_logo.png" alt="logo">
 
-              </div>
-
-              <div class="col-xs-7">
-                <div class="row">
-
-                  <ul class="list-unstyled menu">
-                    <li class="col-xs-2"><a class="text-uppercase" href="#portfolio">Products</a></li>
-                    <li class="col-xs-2"><a class="text-uppercase" href="#about">Marketplace</a></li>
-                    <li class="col-xs-2"><a class="text-uppercase" href="#contact">Customers</a></li>
-                    <li class="col-xs-2"><a class="text-uppercase" href="#portfolio">Partners</a></li>
-                    <li class="col-xs-2"><a class="text-uppercase" href="#about">Community</a></li>
-                    <li class="col-xs-2"><a class="text-uppercase" href="#contact">Pricing</a></li>
-
-                  </ul>
-
-                </div>
-
-
-              </div>
-
-
-
-            <div class="col-xs-1 col-xs-offset-4">
-              <button type="button" class="btn btn-primary hamburger">menu</button>
             </div>
+            <div class="col-xs-2 col-xs-offset-4">
+              <button type="button" class="btn btn-primary hamburger dropdown">
 
 
 
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+
+                      <div class="dropdown-content">
+
+                      <ul>
+                        <li>
+                          <div class="col-xs-12 stessariga">
+                            <img class="menudrop" src="assets/img/svg5.svg" alt="">
+                            <p class="stessariga">Droplets</p>
+                          </div>
+                        </li>
+
+                        <li>
+                          <div class="col-xs-12 stessariga">
+                            <img class="menudrop" src="assets/img/svg5.svg" alt="">
+                            <p class="stessariga">Droplets</p>
+                          </div>
+                        </li>
+
+                        <li>
+                          <div class="col-xs-12 stessariga">
+                            <img class="menudrop" src="assets/img/svg5.svg" alt="">
+                            <p class="stessariga">Droplets</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>    <!-- fine dropdown-content  -->
+
+              </button>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+
+        <nav class="navbar hidden-xs hidden-sm">
+        <div class="container-fluid">
+          <div id="navtop" class="row">
+            <div class="col-xs-6">
+              <p>
+              <a href="" style="border: 1px solid ; padding: 3px; border-radius:5px; background:#00D7D2;">NEW</a>
+                Now available: Memory-Optimized Droplets &gt;
+              </p>
+
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="list-inline">
+                <li><a href="">Docs</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Sales</a></li>
+                <li><a href="">Sign in</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <div id="navbottom" class="row">
+            <div class="col-xs-2">
+                <img class="logo" src="assets/img/digitalocean_logo.png" alt="logo">
+            </div>
+            <div class="col-xs-6 text-left">
+              <ul class="list-inline">
+                <li class="dropdown"><a href="">Product</a>
+                  <div class="dropdown-content">
+                        <span>dropdown</span>
+
+                      </div>
+
+                </li>
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Community v</a></li>
+                <li><a href="">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-4 text-right">
+              <a href="">Sign Up</a>
             </div>
 
           </div>
-        </nav>
+        </div>
+      </nav>
+
       </header>
+
 
       <section id="intro">
         <div class="container">
