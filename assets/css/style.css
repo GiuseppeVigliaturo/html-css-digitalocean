@@ -7,6 +7,9 @@
   background-color: white;
 }
 
+li{
+list-style-type: none;
+}
 .menu{
   line-height: 6;
 }
@@ -37,7 +40,7 @@
   display: none;
   position: absolute;
   top:100%;
-  left:0;
+  right:40%;
   background-color: white;
   color: black;
   min-width: 160px;
@@ -50,6 +53,10 @@
   display: block;
 }
 
+.stessariga{
+  display: inline-block;
+  text-align: left;
+}
 #intro{
   margin-top: 3%;
   background-image: url("../img/bg-home.jpg");
